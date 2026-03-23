@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def make_power_plot(csv_path: str = "power_results.csv", output_path: str = "power_plot.png"):
+def make_power_plot(csv_path: str = "power-results.csv", output_path: str = "power-plot.png"):
     df = pd.read_csv(csv_path)
     
     dist_order = ["Normal", "Right-skewed", "Heavy-tailed", "Uniform"]
