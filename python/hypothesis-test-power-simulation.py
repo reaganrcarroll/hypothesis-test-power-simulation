@@ -98,7 +98,7 @@ def run_full_simulation(
     
 if __name__ == "__main__":
     results = run_full_simulation(reps = 10000)
-    results.to_csv("power_results.csv", index = False)
+    results.to_csv("power-results.csv", index = False)
     print(results.head())
-    print("\nSaved results to power_results.csv")
+    print("\nSaved results to power-results.csv")
     
